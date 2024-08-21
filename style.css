@@ -33,6 +33,10 @@ a:hover{
     color: black;
     transform: scale(1.1);
 }
+a:active{
+    background-color: blue;
+    transform: scale(0.9);
+}
 #print-area{
     width: 100%; /* Ensure the div takes up full width of its parent */
     height: 100%; /* Ensure the div takes up full height of its parent */
