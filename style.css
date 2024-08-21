@@ -2,13 +2,13 @@
 div{
     width: 50%;
     height: 30%;
-    margin: 25%;
-    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border: 1px dotted black;
+    
 
 }
 p{
@@ -32,4 +32,24 @@ a:hover{
     background-color: lightgreen;
     color: black;
     transform: scale(1.1);
+}
+#print-area{
+    width: 100%; /* Ensure the div takes up full width of its parent */
+    height: 100%; /* Ensure the div takes up full height of its parent */
+    display: flex; /* Use flexbox to align content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    color: blueviolet;
+    font-size: 1rem;
+    padding: 0;
+
+     
+    
+}
+h1{
+    width: 100%; /* Fill the width of the #print-area div */
+    height: 100%; /* Fill the height of the #print-area div */
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
 }

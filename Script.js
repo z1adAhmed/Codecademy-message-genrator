@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', function() {
         // Update the content of the print area
         printArea.innerHTML = `<h1>${message}</h1>`;
 
-        // Print the content of the print area
-        window.print();
+
     });
 });
