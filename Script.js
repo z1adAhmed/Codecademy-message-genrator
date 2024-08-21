@@ -1,0 +1,1 @@
+let arr = ['Enzl ya mtdala3!', 'El gayar l yakhtashy', '#andoko shamboo??'];
