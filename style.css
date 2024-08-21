@@ -1,0 +1,35 @@
+
+div{
+    width: 50%;
+    height: 30%;
+    margin: 25%;
+    margin-top: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted black;
+
+}
+p{
+    color: #4974a5;
+    font-weight: bold;
+    font-size: 2rem;
+  
+}
+a{
+    width: 50%;
+    height: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    border-radius: 1rem;
+
+}
+a:hover{
+    background-color: lightgreen;
+    color: black;
+    transform: scale(1.1);
+}
